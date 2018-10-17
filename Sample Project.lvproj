@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="16008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -26,50 +26,20 @@
 				<Item Name="Zurich Instruments LabOne.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Zurich Instruments LabOne.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
-				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
-				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
-				<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
-				<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Format Variant Into String__ogtk.vi"/>
-				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
-				<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
 				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-				<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
-				<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
 				<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
-				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
-				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-				<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
-				<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
-				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
-				<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
-				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
-				<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-				<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
-				<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
 				<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
-				<Item Name="Strip Units__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
-				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
-				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 				<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 				<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -113,12 +83,14 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="GetSetShared.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Shared VIs/GetSetShared.lvlib"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Join Strings.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_AAL_MathFunc.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_AAL_MathFunc.lvlib"/>
@@ -131,6 +103,9 @@
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -200,6 +175,7 @@
 			<Item Name="Abbreviate TDMS Group Channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Abbreviate TDMS Group Channel.vi"/>
 			<Item Name="Acknowledge Post Process Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Process Controller Messages/Acknowledge Post Process Msg/Acknowledge Post Process Msg.lvclass"/>
 			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Results/Acquired Result/Acquired Result.lvclass"/>
+			<Item Name="Actual Replot Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/Plot Messages/Actual Replot Msg/Actual Replot Msg.lvclass"/>
 			<Item Name="Add file Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/Plot Messages/Add file Msg/Add file Msg.lvclass"/>
 			<Item Name="Add Menu Item.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Add Menu Item.vi"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
@@ -229,18 +205,23 @@
 			<Item Name="Create Frequency Steps Array.vi" Type="VI" URL="../../LabActor/Spectrum Recorder too/Create Frequency Steps Array.vi"/>
 			<Item Name="Create plots - ring selector.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Create plots - ring selector.vi"/>
 			<Item Name="Cryo-Con Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Driver/Cryo-Con Driver.lvclass"/>
+			<Item Name="Cryo-Con Get H.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Get H.vi"/>
 			<Item Name="Cryo-Con Get T.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Get T.vi"/>
+			<Item Name="Cryo-Con Set Manual Heater Value.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Set Manual Heater Value.vi"/>
+			<Item Name="Cryo-Con Set T.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Set T.vi"/>
 			<Item Name="Cursor Digitizer.lvclass" Type="LVClass" URL="../../LabActor/Utilities/Cursor Digitizer/Cursor Digitizer.lvclass"/>
 			<Item Name="Cursor State.ctl" Type="VI" URL="../../LabActor/Utilities/Cursor Digitizer/Cursor State.ctl"/>
 			<Item Name="Data reduction.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/Data reduction.ctl"/>
 			<Item Name="Device type.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Device/Device type.ctl"/>
 			<Item Name="Display Error Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Application Controller Messages/Display Error Msg/Display Error Msg.lvclass"/>
-			<Item Name="Dynamic Load  Line Detector.vi" Type="VI" URL="../../LabActor/Post-Processors/Line Detector/Dynamic Load  Line Detector.vi"/>
+			<Item Name="Dynamic Load  Resonance Detector.vi" Type="VI" URL="../../LabActor/Post-Processors/Line Detector/Dynamic Load  Resonance Detector.vi"/>
+			<Item Name="Dynamic Load Ruby.vi" Type="VI" URL="../../LabActor/Recorders/Ruby Spectra/Dynamic Load Ruby.vi"/>
 			<Item Name="Empty buffer.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Empty buffer.vi"/>
 			<Item Name="Extend Array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Extend Array.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/File formats.ctl"/>
 			<Item Name="File Path Result.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Results/File Path Result/File Path Result.lvclass"/>
 			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/XY Plot Messages/File updated Msg/File updated Msg.lvclass"/>
+			<Item Name="File.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/File/File Class/File.lvclass"/>
 			<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/File_Group_Chan_Abbr.ctl"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Find Red Pitaya Lock-ins.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/RP Core/Red Pitaya Lock-in Driver/Find Red Pitaya Lock-ins.vi"/>
@@ -267,7 +248,7 @@
 			<Item Name="Get Section Name.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/OO config/Get Section Name.vi"/>
 			<Item Name="Get TDMS channel info.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Get TDMS channel info.vi"/>
 			<Item Name="Get TDMS channel with scaling.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Data Viewer/Get TDMS channel with scaling.vi"/>
-			<Item Name="GPIB Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/GPIB Send Receive.vi"/>
+			<Item Name="GPIB Send Receive.vi" Type="VI" URL="/D/github/NHMFL_Core/Libraries/Instruments/GPIB/GPIB Send Receive.vi"/>
 			<Item Name="h.Library.lvlib" Type="Library" URL="../../NHMFL_Core/Libraries/Instruments/Micron Optics/hyperion library source/h.Library.lvlib"/>
 			<Item Name="HP Counter Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/HP/HP Counter Driver/HP Counter Driver.lvclass"/>
 			<Item Name="I-V parameters.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/I-V parameters.ctl"/>
@@ -283,10 +264,12 @@
 			<Item Name="Init Response Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Process Controller Messages/Init Response Msg/Init Response Msg.lvclass"/>
 			<Item Name="Initialize Work Msg.lvclass" Type="LVClass" URL="../../LabActor/Worker Messages/Initialize Work Msg/Initialize Work Msg.lvclass"/>
 			<Item Name="Instrument Actor.lvclass" Type="LVClass" URL="../../LabActor/Instrument Actor/Instrument Actor.lvclass"/>
+			<Item Name="Internal Spectrum Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/RP Core/Red Pitaya Transceiver Driver/Internal Spectrum Configuration.ctl"/>
 			<Item Name="IPS120.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/IPS120/IPS120.lvclass"/>
 			<Item Name="is AH bridge.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/AH/is AH bridge.vi"/>
 			<Item Name="Is Control Present.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Is Control Present.vi"/>
-			<Item Name="Is Line Detector Available.vi" Type="VI" URL="../../LabActor/Post-Processors/Line Detector/Is Line Detector Available.vi"/>
+			<Item Name="Is OceanOptics installed.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Ocean Optics/Is OceanOptics installed.vi"/>
+			<Item Name="Is Resonance Detector Available.vi" Type="VI" URL="../../LabActor/Post-Processors/Line Detector/Is Resonance Detector Available.vi"/>
 			<Item Name="Is Valid File.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Is Valid File.vi"/>
 			<Item Name="ITC-503 Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/ITC503/ITC-503 Driver.lvclass"/>
 			<Item Name="Items Mouse Click Msg.lvclass" Type="LVClass" URL="../../LabActor/Sequence Elements/Sequence Element Messages/Items Mouse Click Msg/Items Mouse Click Msg.lvclass"/>
@@ -307,8 +290,11 @@
 			<Item Name="Lock-in Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Lock-in Driver/Lock-in Driver.lvclass"/>
 			<Item Name="Lock-in.lvclass" Type="LVClass" URL="../../LabActor/Recorders/Lock-in/Lock-in.lvclass"/>
 			<Item Name="Lockin Parameters.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/SoftwareLockin/Lockin Parameters.ctl"/>
+			<Item Name="Log Result Msg.lvclass" Type="LVClass" URL="../../LabActor/Loggers/Logger Messages/Log Result Msg/Log Result Msg.lvclass"/>
+			<Item Name="Logger.lvclass" Type="LVClass" URL="../../LabActor/Loggers/Logger/Logger.lvclass"/>
 			<Item Name="LR 700 convert responce.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR 700 convert responce.vi"/>
 			<Item Name="LR-700 Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR-700 Driver/LR-700 Driver.lvclass"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Magnet Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Magnet/Magnet Driver.lvclass"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/MakeDataFileNames.vi"/>
@@ -323,7 +309,6 @@
 			<Item Name="Merge Arrays.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Merge Arrays.vi"/>
 			<Item Name="Merge Overlapping Regions.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Merge Overlapping Regions.vi"/>
 			<Item Name="Message Nested Object Msg.lvclass" Type="LVClass" URL="../../LabActor/Template Module Messages/Message Nested Object Msg/Message Nested Object Msg.lvclass"/>
-			<Item Name="Meta Data to TDMS.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/OO config/Meta Data to TDMS.vi"/>
 			<Item Name="Micron Hyperion Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Micron Optics/Micron Hyperion Driver/Micron Hyperion Driver.lvclass"/>
 			<Item Name="Micron optics configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Micron Optics/Micron optics configuration.ctl"/>
 			<Item Name="Micron Optics Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Micron Optics/Micron Optics Driver/Micron Optics Driver.lvclass"/>
@@ -335,6 +320,7 @@
 			<Item Name="Monitor Controller.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Monitor Controller/Monitor Controller.lvclass"/>
 			<Item Name="Neocera Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Neocera/Neocera Driver/Neocera Driver.lvclass"/>
 			<Item Name="Neocera21 Get T.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Neocera/Neocera21 Get T.vi"/>
+			<Item Name="Neocera21 Set T.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Neocera/Neocera21 Set T.vi"/>
 			<Item Name="New Data File Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Application Controller Messages/New Data File Msg/New Data File Msg.lvclass"/>
 			<Item Name="Number list to array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Number list to array.vi"/>
 			<Item Name="Obtain top dispatch vi.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Obtain top dispatch vi.vi"/>
@@ -349,8 +335,11 @@
 			<Item Name="Oxford PS Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/Oxford PS Driver/Oxford PS Driver.lvclass"/>
 			<Item Name="Oxford Read Channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/Oxford Read Channel.vi"/>
 			<Item Name="Oxford visa write read.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/Oxford visa write read.vi"/>
+			<Item Name="Peak Parameters.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Fit/Peak Parameters.ctl"/>
 			<Item Name="Perform Work Msg.lvclass" Type="LVClass" URL="../../LabActor/Worker Messages/Perform Work Msg/Perform Work Msg.lvclass"/>
 			<Item Name="Phase word to Frequency.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/Phase word to Frequency.vi"/>
+			<Item Name="PID Controller Configuration.ctl" Type="VI" URL="../../LabActor/Recorders/PID Controller/PID Controller Configuration.ctl"/>
+			<Item Name="PID Controller.lvclass" Type="LVClass" URL="../../LabActor/Recorders/PID Controller/PID Controller.lvclass"/>
 			<Item Name="Plot Closed Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Application Controller Messages/Plot Closed Msg/Plot Closed Msg.lvclass"/>
 			<Item Name="Plot Indexes.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Plot Indexes.ctl"/>
 			<Item Name="Plot Spectrum Msg.lvclass" Type="LVClass" URL="../../LabActor/Recorders/Micron Optics Recorder Messages/Plot Spectrum Msg/Plot Spectrum Msg.lvclass"/>
@@ -364,6 +353,7 @@
 			<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pulse Driver.lvclass"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Pupulate and conf serial bus.vi"/>
 			<Item Name="Pusle Driver Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pusle Driver Configuration.ctl"/>
+			<Item Name="Query numeric.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Query numeric.vi"/>
 			<Item Name="Queued Listbox.xctl" Type="XControl" URL="../../NHMFL_Core/Libraries/Queued Listbox/Queued Listbox.xctl"/>
 			<Item Name="Read 2 Traces.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/SRS/sr850/Read 2 Traces.vi"/>
 			<Item Name="Read IPS120.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/IPS120/Read IPS120.vi"/>
@@ -419,27 +409,34 @@
 			<Item Name="Save keep old plots Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/XY Plot Messages/Save keep old plots Msg/Save keep old plots Msg.lvclass"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Self-addressed Msg.lvclass" Type="LVClass" URL="../../LabActor/Template Module Messages/Self-Addressed Msg/Self-addressed Msg.lvclass"/>
-			<Item Name="Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Send Receive.vi"/>
+			<Item Name="Send Receive.vi" Type="VI" URL="/D/github/NHMFL_Core/Libraries/Instruments/GPIB/Send Receive.vi"/>
 			<Item Name="Sequence Element Configuration.ctl" Type="VI" URL="../../LabActor/Sequence Elements/Sequence Element/Sequence Element Configuration.ctl"/>
 			<Item Name="Sequence Element.lvclass" Type="LVClass" URL="../../LabActor/Sequence Elements/Sequence Element/Sequence Element.lvclass"/>
 			<Item Name="Set Frequency Msg.lvclass" Type="LVClass" URL="../../LabActor/Recorders/Lock-in Messages/Set Frequency Msg/Set Frequency Msg.lvclass"/>
 			<Item Name="Set LakeShore 340 Set Point.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LakeShore/LakeShore340/Set LakeShore 340 Set Point.vi"/>
+			<Item Name="Set Output Msg.lvclass" Type="LVClass" URL="../../LabActor/Instrument Actor Messages/Set Output Msg/Set Output Msg.lvclass"/>
 			<Item Name="Set Plot Type Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/XY WFRM Plot Messages/Set Plot Type Msg/Set Plot Type Msg.lvclass"/>
+			<Item Name="Set Point Aproach.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller/Controls/Set Point Aproach.ctl"/>
 			<Item Name="Set Point Msg.lvclass" Type="LVClass" URL="../../LabActor/Recorders/Temperature Controller Messages/Set Point Msg/Set Point Msg.lvclass"/>
+			<Item Name="Set TDMS WFM Properties.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS/Set TDMS WFM Properties.vi"/>
 			<Item Name="Set Topic Value Msg.lvclass" Type="LVClass" URL="../../LabActor/Comms/Communications Messages/Set Topic Value Msg/Set Topic Value Msg.lvclass"/>
 			<Item Name="Simple VISA Reader Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Simple VISA Reader/Simple VISA Reader Driver.lvclass"/>
 			<Item Name="SimpleGetPeaks.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Micron Optics/hyperion library source/SimpleGetPeaks.vi"/>
 			<Item Name="SimpleGetSpectrum.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Micron Optics/hyperion library source/SimpleGetSpectrum.vi"/>
 			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Sine ramps pattern.vi"/>
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Skip white spaces.vi"/>
+			<Item Name="Spectrometer Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Spectrometer Driver/Spectrometer Driver.lvclass"/>
+			<Item Name="Spectrometer.lvclass" Type="LVClass" URL="../../LabActor/Recorders/Spectrometer/Spectrometer.lvclass"/>
 			<Item Name="Spectrum Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/RP Core/Red Pitaya Transceiver Driver/Spectrum Configuration.ctl"/>
 			<Item Name="Spectrum Recorder too.lvclass" Type="LVClass" URL="../../LabActor/Spectrum Recorder too/Spectrum Recorder too.lvclass"/>
 			<Item Name="SRS Lockin Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/SRS/SRS Lockin Driver/SRS Lockin Driver.lvclass"/>
 			<Item Name="Start Measurements Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Process Controller Messages/Start Measurements Msg/Start Measurements Msg.lvclass"/>
+			<Item Name="Start Stream Result.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Results/Start Stream Result/Start Stream Result.lvclass"/>
 			<Item Name="Start-up Configuration.ctl" Type="VI" URL="../../LabActor/Controllers/Application Controller/Start-up Configuration.ctl"/>
 			<Item Name="Stop Measurements Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Process Controller Messages/Stop Measurements Msg/Stop Measurements Msg.lvclass"/>
 			<Item Name="Stop Response Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Process Controller Messages/Stop Response Msg/Stop Response Msg.lvclass"/>
 			<Item Name="Stop Work Msg.lvclass" Type="LVClass" URL="../../LabActor/Worker Messages/Stop Work Msg/Stop Work Msg.lvclass"/>
+			<Item Name="Store Metadata in TDMS.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS/Store Metadata in TDMS.vi"/>
 			<Item Name="Store Value in TDMS.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS/Store Value in TDMS.vi"/>
 			<Item Name="Store XY Msg.lvclass" Type="LVClass" URL="../../LabActor/Utilities/Cursor Digitizer Messages/Store XY Msg/Store XY Msg.lvclass"/>
 			<Item Name="Stream Compress Splitter.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Stream Compress Splitter.vi"/>
@@ -448,6 +445,9 @@
 			<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../LabActor/Template Module Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 			<Item Name="Sweep Sequence Configuration.ctl" Type="VI" URL="../../LabActor/Sequence Elements/Sweep Sequence/Sweep Sequence Configuration.ctl"/>
 			<Item Name="Sweep.lvclass" Type="LVClass" URL="../../LabActor/Sequence Elements/Sweep Sequence/Sweep.lvclass"/>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="T controller configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/T controller configuration.ctl"/>
 			<Item Name="T-controller reading type.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller/Controls/T-controller reading type.ctl"/>
 			<Item Name="TCP Communications.lvclass" Type="LVClass" URL="../../LabActor/Comms/TCP Communications/TCP Communications.lvclass"/>
@@ -467,7 +467,7 @@
 			<Item Name="Update Monitor State Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Update Monitor State Msg/Update Monitor State Msg.lvclass"/>
 			<Item Name="Update Plots Msg.lvclass" Type="LVClass" URL="../../LabActor/Controllers/Process Controller Messages/Update Plots Msg/Update Plots Msg.lvclass"/>
 			<Item Name="Variant to Meta Data.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/OO config/Variant to Meta Data.vi"/>
-			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/VISA  Send Receive.vi"/>
+			<Item Name="VISA  Send Receive.vi" Type="VI" URL="/D/github/NHMFL_Core/Libraries/Instruments/GPIB/VISA  Send Receive.vi"/>
 			<Item Name="Visa set timeot and termination.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/Visa set timeot and termination.vi"/>
 			<Item Name="Wait for Result Msg.lvclass" Type="LVClass" URL="../../LabActor/Pulse Recorders/Pulse Recorder Messages/Wait for Data Msg/Wait for Result Msg.lvclass"/>
 			<Item Name="Wait miliseconds.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Wait miliseconds.vi"/>
@@ -478,7 +478,7 @@
 			<Item Name="Write File history depth Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/Plot Messages/Write Keep # of preceding files Msg/Write File history depth Msg.lvclass"/>
 			<Item Name="Write Files Msg.lvclass" Type="LVClass" URL="../../LabActor/Plots/Plot Messages/Write Files Msg/Write Files Msg.lvclass"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Write menu object array values.vi"/>
-			<Item Name="Write Monitor File Msg.lvclass" Type="LVClass" URL="../../LabActor/Monitor-Pulse Messages/Write Monitor File Msg/Write Monitor File Msg.lvclass"/>
+			<Item Name="Write Monitor File Msg.lvclass" Type="LVClass" URL="../../LabActor/LabActor Messages/Write Monitor File Msg/Write Monitor File Msg.lvclass"/>
 			<Item Name="Write object configuration.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/OO config/Write object configuration.vi"/>
 			<Item Name="Write tdms stream Msg.lvclass" Type="LVClass" URL="../../LabActor/Template Module Messages/Write tdms stream Msg/Write tdms stream Msg.lvclass"/>
 			<Item Name="XY Plot.lvclass" Type="LVClass" URL="../../LabActor/Plots/XY Plot/XY Plot.lvclass"/>
