@@ -15,9 +15,17 @@
 			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
 			<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
 		</Item>
-		<Item Name="Stepper" Type="Folder">
+		<Item Name="PLL reader" Type="Folder">
+			<Item Name="Load PLL reader Modules.vi" Type="VI" URL="../Load PLL reader Modules.vi"/>
+			<Item Name="PLL reader.lvclass" Type="LVClass" URL="../PLL reader/PLL reader.lvclass"/>
+		</Item>
+		<Item Name="Stepper Instrument" Type="Folder">
 			<Item Name="Load Stepper Modules.vi" Type="VI" URL="../Load Stepper Modules.vi"/>
 			<Item Name="Stepper.lvclass" Type="LVClass" URL="../Stepper/Stepper.lvclass"/>
+		</Item>
+		<Item Name="Temperature reader" Type="Folder">
+			<Item Name="Load temperature reader Modules.vi" Type="VI" URL="../Load temperature reader Modules.vi"/>
+			<Item Name="temperature reader.lvclass" Type="LVClass" URL="../Temperature reader/temperature reader.lvclass"/>
 		</Item>
 		<Item Name="ZI Lockin Instrument" Type="Folder">
 			<Item Name="Load ZI Modules.vi" Type="VI" URL="../Load ZI Modules.vi"/>
@@ -385,6 +393,7 @@
 			<Item Name="Process Result Msg.lvclass" Type="LVClass" URL="../../LabActor/Process Object Messages/Process Result Msg/Process Result Msg.lvclass"/>
 			<Item Name="publish -- get frequency and voltage.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- get frequency and voltage.vi"/>
 			<Item Name="publish -- stepper position.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/IMS Stepper Controller/publish -- stepper position.vi"/>
+			<Item Name="publish -- temperature.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- temperature.vi"/>
 			<Item Name="publisher action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publisher action.ctl"/>
 			<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pulse Driver.lvclass"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Pupulate and conf serial bus.vi"/>
