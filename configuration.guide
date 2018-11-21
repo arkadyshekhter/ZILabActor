@@ -1,12 +1,4 @@
 
-Start-up Configuration.External Modules Loaders.<size(s)> = "3"
-Start-up Configuration.External Modules Loaders 0 = "../../ZILabActor/Load PLL reader Modules.vi"
-Start-up Configuration.External Modules Loaders 1 = "../../ZILabActor/Load Stepper Modules.vi"
-Start-up Configuration.External Modules Loaders 2 = "../../ZILabActor/Load temperature reader Modules.vi"
-
-Start-up Configuration.Root Data Folder = "/C/Data"
-
-
 
 
 

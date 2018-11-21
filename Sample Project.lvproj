@@ -15,6 +15,10 @@
 			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
 			<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
 		</Item>
+		<Item Name="Magnet" Type="Folder">
+			<Item Name="Load Magnet reader Modules.vi" Type="VI" URL="../Load Magnet reader Modules.vi"/>
+			<Item Name="Magnet.lvclass" Type="LVClass" URL="../Magnet/Magnet.lvclass"/>
+		</Item>
 		<Item Name="PLL reader" Type="Folder">
 			<Item Name="Load PLL reader Modules.vi" Type="VI" URL="../Load PLL reader Modules.vi"/>
 			<Item Name="PLL reader.lvclass" Type="LVClass" URL="../PLL reader/PLL reader.lvclass"/>
