@@ -35,6 +35,7 @@
 			<Item Name="Load ZI Modules.vi" Type="VI" URL="../Load ZI Modules.vi"/>
 			<Item Name="ZI Lockin.lvclass" Type="LVClass" URL="../ZI Lockin/ZI Lockin.lvclass"/>
 		</Item>
+		<Item Name="publish -- magnet field -- eventful.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- magnet field -- eventful.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="ziLV64.framework" Type="Document" URL="/&lt;instrlib&gt;/Zurich Instruments LabOne/Private/ziLV64.framework"/>
@@ -396,8 +397,11 @@
 			<Item Name="Process Object.lvclass" Type="LVClass" URL="../../LabActor/Process Object/Process Object.lvclass"/>
 			<Item Name="Process Result Msg.lvclass" Type="LVClass" URL="../../LabActor/Process Object Messages/Process Result Msg/Process Result Msg.lvclass"/>
 			<Item Name="publish -- get frequency and voltage.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- get frequency and voltage.vi"/>
-			<Item Name="publish -- stepper position.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/IMS Stepper Controller/publish -- stepper position.vi"/>
+			<Item Name="publish -- magnet -- field.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- magnet -- field.vi"/>
+			<Item Name="publish -- PLL freq and voltage -- eventful.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- PLL freq and voltage -- eventful.vi"/>
+			<Item Name="publish -- stepper position -- eventful.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Stepper Controller/publish -- stepper position -- eventful.vi"/>
 			<Item Name="publish -- temperature.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- temperature.vi"/>
+			<Item Name="publisher action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/publisher action.ctl"/>
 			<Item Name="publisher action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publisher action.ctl"/>
 			<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pulse Driver.lvclass"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Pupulate and conf serial bus.vi"/>
