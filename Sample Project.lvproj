@@ -27,6 +27,9 @@
 			<Item Name="Load Stepper Modules.vi" Type="VI" URL="../Load Stepper Modules.vi"/>
 			<Item Name="Stepper.lvclass" Type="LVClass" URL="../Stepper/Stepper.lvclass"/>
 		</Item>
+		<Item Name="stepper6" Type="Folder">
+			<Item Name="stepper6.lvlib" Type="Library" URL="../stepper6/stepper6.lvlib"/>
+		</Item>
 		<Item Name="Temperature reader" Type="Folder">
 			<Item Name="Load temperature reader Modules.vi" Type="VI" URL="../Load temperature reader Modules.vi"/>
 			<Item Name="temperature reader.lvclass" Type="LVClass" URL="../Temperature reader/temperature reader.lvclass"/>
@@ -400,8 +403,8 @@
 			<Item Name="publish -- magnet -- field.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- magnet -- field.vi"/>
 			<Item Name="publish -- PLL freq and voltage -- eventful.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- PLL freq and voltage -- eventful.vi"/>
 			<Item Name="publish -- stepper position -- eventful.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Stepper Controller/publish -- stepper position -- eventful.vi"/>
+			<Item Name="publish -- stepper position.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Stepper Controller/publish -- stepper position.vi"/>
 			<Item Name="publish -- temperature.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- temperature.vi"/>
-			<Item Name="publisher action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/publisher action.ctl"/>
 			<Item Name="publisher action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publisher action.ctl"/>
 			<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pulse Driver.lvclass"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Pupulate and conf serial bus.vi"/>
