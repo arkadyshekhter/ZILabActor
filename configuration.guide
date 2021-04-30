@@ -1,18 +1,35 @@
+=============new===============
 
+[LabActor]
+server.app.propertiesEnabled=True
+server.tcp.serviceName="My Computer/VI Server"
+server.vi.propertiesEnabled=True
+WebServer.TcpAccess="c+*"
+WebServer.ViAccess="+*"
+DebugServerEnabled=False
+DebugServerWaitOnLaunch=False
+DefaultDataFileLocation="/opt/C/Data"
+tmpdir=/opt/C/Data
 
+;Possible module names: "NONE", "NI-DAQmx", "NI-Scope", "Red Pitaya Digitizer", "GaGe", "VISA Device", "Red Pitaya Lockin", "Monitor Controller", "Pulse Controller", "Integrate Pulse", "Lockin Processor", "File converter", "NHMFL Synthesizer", "Micron Hyperion", "Spectrum Recorder", "Resonance Detector", "TCP Communications", "Format Resonances", "Ruby Spectra", "PID Controller", "Quantum Design"
 
-
+[Startup Configuration]
+Load Modules.<size(s)> = "5"
+Load Modules 0 = "Monitor Controller"
+Load Modules 1 = "VISA Device"
+Load Modules 2 = "NI-DAQmx"
+Load Modules 3 = "File converter"
+Load Modules 4 = "TCP Communications"
 Full window = "TRUE"
 
-Start-up Configuration.External Modules Loaders.<size(s)> = "2"
-Start-up Configuration.External Modules Loaders 0 = "../../ZILabActor/Load Stepper Modules.vi"
-Start-up Configuration.External Modules Loaders 1 = "../../ZILabActor/Load PLL reader Modules.vi"
-Start-up Configuration.External Modules Loaders 2 = "../../ZILabActor/Load Magnet reader Modules.vi"
-
-Start-up Configuration.Root Data Folder = "/C/Data"
+External Modules Loaders.<size(s)> = "0"
+External Modules Loaders 0 = "..\..\ZILabActor\Load ZI Modules.vi"
 
 
 
+
+
+=============old===================
 
 
 
@@ -42,8 +59,24 @@ Full window = "TRUE"
 
 Start-up Configuration.External Modules Loaders.<size(s)> = "3"
 Start-up Configuration.External Modules Loaders 0 = "../../ZILabActor/Load Stepper Modules.vi"
+Start-up Configuration.External Modules Loaders 1 = "../../ZILabActor/Load Magnet reader Modules.vi"
+Start-up Configuration.External Modules Loaders 2 = "../../ZILabActor/Load PLL reader Modules.vi"
+
+Start-up Configuration.Root Data Folder = "/opt/new/data"
+
+
+
+==========================
+
+
+
+Full window = "TRUE"
+
+Start-up Configuration.External Modules Loaders.<size(s)> = "2"
+Start-up Configuration.External Modules Loaders 0 = "../../ZILabActor/Load Stepper Modules.vi"
 Start-up Configuration.External Modules Loaders 1 = "../../ZILabActor/Load PLL reader Modules.vi"
 Start-up Configuration.External Modules Loaders 2 = "../../ZILabActor/Load Magnet reader Modules.vi"
 
 Start-up Configuration.Root Data Folder = "/C/Data"
+
 
